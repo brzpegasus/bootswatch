@@ -14,12 +14,13 @@
 @gray-light:             #bbb;
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
+@practically-white:     #ebebeb;
+
 @brand-primary:         #DF691A;
 @brand-success:         #4CAF50;
 @brand-info:            #9C27B0;
 @brand-warning:         #ff9800;
 @brand-danger:          #e51c23;
-@brand-accent:          #F9F9D8;
 @brand-bg-light:        #4e5d6c;
 
 //== Scaffolding
@@ -411,7 +412,7 @@
 
 //=== Shared nav styles
 @nav-link-padding:                          10px 15px;
-@nav-link-hover-bg:                         @brand-accent;
+@nav-link-hover-bg:                         @practically-white;
 
 @nav-disabled-link-color:                   @gray-light;
 @nav-disabled-link-hover-color:             @gray-light;
@@ -476,9 +477,9 @@
 //##
 
 @jumbotron-padding:              30px;
-@jumbotron-color:                #ebebeb;
-@jumbotron-bg:                   transparent;
-@jumbotron-heading-color:        #ebebeb;
+@jumbotron-color:                @practically-white;
+@jumbotron-bg:                   @brand-bg-light;
+@jumbotron-heading-color:        @practically-white;
 @jumbotron-font-size:            ceil((@font-size-base * 1.5));
 
 

@@ -3652,7 +3652,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #f9f9d8;
+  background-color: #ebebeb;
 }
 .nav > li.disabled > a {
   color: #bbbbbb;
@@ -3667,7 +3667,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #f9f9d8;
+  background-color: #ebebeb;
   border-color: #df691a;
 }
 .nav .nav-divider {
@@ -4621,7 +4621,7 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: #ebebeb;
-  background-color: transparent;
+  background-color: #4e5d6c;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4633,7 +4633,7 @@ a.badge:focus {
   font-weight: 200;
 }
 .jumbotron > hr {
-  border-top-color: rgba(0, 0, 0, 0);
+  border-top-color: #39444e;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
@@ -6336,16 +6336,12 @@ h3,
 pre {
   font-size: 14px;
 }
-.container .jumbotron {
-  padding-left: 0;
-}
 .jumbotron {
   padding: 75px 30px 15px 30px;
-  padding-left: 0;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .jumbotron h1 {
-  font-size: 56px;
+  font-size: 64px;
   font-weight: 300;
 }
 .navbar {
