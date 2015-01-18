@@ -4,6 +4,24 @@
 
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,500");
 
+// Headings ===================================================================
+
+h3, .h3 {
+  margin-top: (@line-height-computed / 2);
+}
+
+// Code =======================================================================
+
+pre {
+  font-size: (@font-size-base - 2); // 14px to 12px
+}
+
+// Jumbotron ==================================================================
+
+.jumbotron {
+  padding: (@jumbotron-padding * 2.5) @jumbotron-padding (@jumbotron-padding / 2) @jumbotron-padding;
+}
+
 // Navbar =====================================================================
 
 .navbar {
@@ -183,6 +201,16 @@ select.form-control {
 }
 
 // Navs =======================================================================
+
+.affix {
+  top: 0;
+}
+
+.nav-stacked {
+  &.affix {
+    margin-top: 80px;
+  }
+}
 
 .nav-tabs {
   & > li > a {
