@@ -4620,12 +4620,12 @@ a.badge:focus {
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
-  color: #2b3e50;
-  background-color: #f9f9d8;
+  color: #ebebeb;
+  background-color: transparent;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: #2b3e50;
+  color: #ebebeb;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -4633,7 +4633,7 @@ a.badge:focus {
   font-weight: 200;
 }
 .jumbotron > hr {
-  border-top-color: #f2f2ac;
+  border-top-color: rgba(0, 0, 0, 0);
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
@@ -6336,8 +6336,17 @@ h3,
 pre {
   font-size: 14px;
 }
+.container .jumbotron {
+  padding-left: 0;
+}
 .jumbotron {
   padding: 75px 30px 15px 30px;
+  padding-left: 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.jumbotron h1 {
+  font-size: 56px;
+  font-weight: 300;
 }
 .navbar {
   border: none;
