@@ -14,19 +14,20 @@
 @gray-light:             #bbb;
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:         #2b3e50;
+@brand-primary:         #DF691A;
 @brand-success:         #4CAF50;
 @brand-info:            #9C27B0;
 @brand-warning:         #ff9800;
 @brand-danger:          #e51c23;
-
+@brand-accent:          #F9F9D8;
+@brand-bg-light:        #4e5d6c;
 
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #fff;
+@body-bg:               #2B3E50;
 //** Global text color on `<body>`.
 @text-color:            @gray;
 
@@ -410,7 +411,7 @@
 
 //=== Shared nav styles
 @nav-link-padding:                          10px 15px;
-@nav-link-hover-bg:                         @gray-lighter;
+@nav-link-hover-bg:                         @brand-accent;
 
 @nav-disabled-link-color:                   @gray-light;
 @nav-disabled-link-hover-color:             @gray-light;
@@ -475,9 +476,9 @@
 //##
 
 @jumbotron-padding:              30px;
-@jumbotron-color:                inherit;
-@jumbotron-bg:                   #f9f9f9;
-@jumbotron-heading-color:        @headings-color;
+@jumbotron-color:                #2B3E50;
+@jumbotron-bg:                   @brand-accent;
+@jumbotron-heading-color:        #2B3E50; // @headings-color;
 @jumbotron-font-size:            ceil((@font-size-base * 1.5));
 
 
@@ -818,8 +819,8 @@
 //
 //##
 
-@code-color:                  #c7254e;
-@code-bg:                     #f9f2f4;
+@code-color:                  @brand-primary;
+@code-bg:                     #F9F2EF;
 
 @kbd-color:                   #fff;
 @kbd-bg:                      #333;

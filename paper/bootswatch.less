@@ -6,6 +6,10 @@
 
 // Headings ===================================================================
 
+h1, h2 {
+  color: @brand-primary;
+}
+
 h3, .h3 {
   margin-top: (@line-height-computed / 2);
 }
@@ -202,13 +206,14 @@ select.form-control {
 
 // Navs =======================================================================
 
-.affix {
-  top: 0;
-}
-
 .nav-stacked {
+  background-color: @brand-bg-light;
+  border-radius: 3px;
+
   &.affix {
     margin-top: 80px;
+    top: 0;
+    width: 10.3em;
   }
 }
 
